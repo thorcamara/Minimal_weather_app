@@ -103,3 +103,27 @@ body {
 .day-info div .value {
   float: right;
 }
+
+.days-list {
+  display: flex;
+  list-style: none;
+  margin: 10px 35px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+}
+
+.days-list li {
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.days-list li .bx {
+  margin-bottom: 5px;
+  font-size: 2rem;
+}
