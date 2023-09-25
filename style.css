@@ -127,3 +127,19 @@ body {
   margin-bottom: 5px;
   font-size: 2rem;
 }
+
+.days-list li:hover {
+  transform: scale(1.1);
+  background: #fff;
+  color: #222831;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+.days-list li .day-temp {
+  margin-top: 6px;
+  font-weight: 700;
+}
+
+.btn-container {
+  padding: 25px 35px;
+}
