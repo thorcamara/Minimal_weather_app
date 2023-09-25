@@ -91,3 +91,15 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.day-info div:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.day-info div .title {
+  font-weight: 700;
+}
+
+.day-info div .value {
+  float: right;
+}
